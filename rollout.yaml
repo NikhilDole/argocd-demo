@@ -37,5 +37,9 @@ spec:
 #       previewService: rollouts-demo-preview
      canary: 
        steps:
-       - setWeight: 20
+       - setWeight: 10
        - pause: {}
+       - setWeight: 20
+       - pause: {}       
+       - setWeight: 30
+       - pause: {}            
