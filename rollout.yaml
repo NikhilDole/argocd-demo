@@ -6,8 +6,8 @@ metadata:
   labels:
     app: rollouts-demo
 spec:
-  replicas: 5
-  revisionHistoryLimit: 3
+  replicas: 10
+  revisionHistoryLimit: 10
   selector:
     matchLabels:
       app: rollouts-demo
