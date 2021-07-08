@@ -44,4 +44,4 @@ spec:
        - setWeight: 30
        - pause: { }
        - setWeight: 50
-       - pause: { }
+       - pause: { duration: 1h }
